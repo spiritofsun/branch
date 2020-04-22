@@ -1,3 +1,9 @@
- for i in range(10):
-	 if i%2==0:
-		print("hello, world")
+for i in range(100):
+	 if i%15==0:
+		print("feez buzz ")
+	elif i%3==0:
+		print("feez ")
+	elif i%5==0:
+		print("buzz ")
+	else: 
+	 print(i) 
